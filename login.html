@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my login page</title>
+<style>
+
+body{
+    margin: 0;
+    height:100vh  ;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mycard{
+   
+    /* border: 2px solid red; */
+     background-color: rgb(243, 218, 128); 
+    width: 25%;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* x offset y offset blur size color */
+    box-shadow :3px -3px 10px 2px  rgb(217, 236, 222);
+    
+}
+.form-title{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+    
+
+
+</style>
+
+
+
+
+</head>
+<body>
+    <div class="mycard">
+        <form>
+            <h3 class="form-title">login to continue</h3>
+            <hr><br>
+
+            <label for="">E-Mail address</label>
+            <input class="myinput" type="email"><br><br>
+
+            <label for="">password</label>
+            <input  class="myinput" type="password"><br><br>
+
+            <button class="mybtn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
