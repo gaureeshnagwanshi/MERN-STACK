@@ -1,0 +1,454 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <style>
+    *{
+      font-family:<link href="https://fonts.googleapis.com/css?family=JetBrains+Mono:100,200,300,regular,500,600,700,800,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic" rel="stylesheet" />;
+    }
+    .btn{
+      margin: 0;
+      border: none;
+    
+      box-sizing: border-box;
+      
+      font-size: 12px;
+      
+      
+
+    }
+    .btn:hover{
+      background-color: azure;
+      border: 1px solid black;
+      text-size-adjust: 10px;
+    }
+    .bt{
+      width: 75%;
+      display:flex ;
+      background-color: white;
+      justify-content: center;
+      box-sizing: border-box;
+      border:1px solid blue;
+      border-radius: 10px;
+    color:blue ;
+    }
+    .bt:hover{
+      background-color: blue;
+      color: white;
+      text-decoration: underline;
+    }
+    .bt1{
+      display: flex;
+      justify-content: center;
+      background-color: white;
+      width: 75%;
+      box-sizing: border-box;
+      border: none;
+      border-radius: 10px;
+    
+    }
+    .bt1:hover{
+      border: 1px solid black;
+      background-color: white;
+      text-decoration: underline;
+    }
+    .w{
+      
+      width: 20px;
+      border: none;
+      height: 20px;
+    }
+    
+    
+    .scroll{
+      margin-left: 20px;
+      background-color: rgba(243, 235, 235, 0.726);
+      width: 200px;
+      height: 300px;
+      overflow: scroll;
+      overflow-x: hidden;
+    }
+    .scb{
+      border: none;
+      background-color: rgb(191, 191, 191);
+      width: 100%;
+      text-align: justify;
+
+    }
+    .scb:hover{
+      background-color: rgb(189, 226, 218);
+      
+      border-radius: 5px;
+      color: blue;
+      text-decoration: underline;
+    }
+    .link{
+      text-decoration: none;
+    }
+    .link:hover{
+      border-bottom: 1px solid blue;
+    }
+    .gg{
+      margin: 3px;
+      font-size: 12px;
+    }
+    .rbtn{
+      font-size: 13px;
+      border: none;
+      padding:1px;
+      width: 100%;
+      height: 48px;
+      text-align: justify;
+      background-color: rgba(209, 208, 208, 0.834);
+
+    }
+    .rbtn:hover{
+      color: blue;
+    }
+    .dbtn{
+      font-size: 13px;
+      border: none;
+      padding:1px;
+      width: 100%;
+      height: 48px;
+      text-align: justify;
+      
+
+    }
+    .dbtn:hover{
+background-color: white;
+      color: blue;
+    }
+    input{
+      position: absolute;
+      left: 290px;
+      border-radius: 10px;
+      padding: 5px;
+      top: 5px;
+    }
+    .bt4{
+      background-attachment: fixed;
+      
+      padding: 5px;
+      position:absolute;
+      right: 380px;
+      top: 7px;
+      background-color: white;
+      border: none;
+      border-radius: 5px;
+      }
+    .bt5{
+      background-color: white;
+      background-attachment: fixed;
+      position: absolute;
+      right: 230px;
+      top: 7px;
+
+    
+      color: blue;
+      border: 1px solid blue;
+      padding: 5px;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+    .bt4:hover{
+    
+      border: 2px solid black;
+    }
+    .bt5:hover{
+      background-color: blue;
+      color: white;
+    }
+
+
+  </style>  
+  </head>
+
+    <body  class=" bg-body-secondary ">
+      <div >
+
+        <div class="card bg-white p-2 col-sn-12 col-md-12 col-lg-12 " style="display: flex;z-index: 2;">
+          <img style="width: 50px;margin-left: 220px;top: 1px; display: block;" src="C:\Users\91638\Pictures\dev logo.png" alt="">
+          <input class="w-25 mt-1 " type="text" placeholder="Search...">
+          <button class="bt4 ">Log in </button>
+          <button style="background-color: white;position: absolute;left: 620px;top: 15px; border: none;"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <button class="bt5   "> Create account</button>
+        
+        </div>
+      </div>
+      <div class="w-100 container">
+        
+        
+        <!-- <h1>hello</h1></div> -->
+        <div  class=" ms-5 me-5">
+
+        <div  class="row white me-5 ms-5 mt-3"> 
+          <div class=" w-25 p-2  col-sn-6 col-md-4 bg-body-secondary ">
+            
+            <div class="card w-100 bg-white "><h5 class="ms-3 mt-2">DEV Community is a community of 1,113,386 amazing developers </h5><br>
+              <p class="ms-3">We're a place where coders share, stay up-to-date and grow their careers.</p> 
+              <center><button  class="bt mb-1">Create account</button>
+                <button class="bt1 mb-1">Log in</button></center>
+ </div>
+<div class=" w-100 bg-body-secondary">
+  <button  class="btn btn-close-white w-100 d-flex justify-content-start"> 🏠Home</button>
+  <button class="btn btn-close-white w-100 d-flex justify-content-start"> 📃Listing</button>
+  <button class="btn btn-close-white w-100 d-flex justify-content-start"> 🎙️Podcaste</button>
+  <button class="btn btn-close-white w-100 d-flex justify-content-start"> 📽️Video</button>
+  <button class="btn btn-close-white w-100 d-flex justify-content-start"> 🏷️Tags</button>
+  <button class="btn btn-close-white w-100 d-flex justify-content-start"> 💡FAQ</button>
+  <button class="btn btn-close-white w-100 d-flex justify-content-start"> 🛍️Forem Shop</button>
+  <button class="btn btn-close-white w-100 d-flex justify-content-start"> ❤️Advertise on Dev</button>
+  <button class="btn btn-close-white w-100 d-flex justify-content-start"><img  style="width: 15px;height: 15px;" src="file:///C:/Users/91638/Pictures/about%20dev.webp" alt=""> About</button>
+  <button class="btn btn-close-white w-100 d-flex justify-content-start"> 🤙Contact</button>
+  <button class="btn btn-close-white w-100 d-flex justify-content-start"> 📖Guides</button>
+  <button class="btn btn-close-white w-100 d-flex justify-content-start"> 🤔software Comperisons</button><br>
+  <h6 class="ms-3">Other</h6>
+  <button class="btn btn-close-white w-100 d-flex justify-content-start"> 👍Code of Product</button>
+  <button class="btn btn-close-white w-100 d-flex justify-content-start"> 😎Privacy Policy</button>
+  <button class="btn btn-close-white w-100 d-flex justify-content-start"> 👀Terms of use</button>
+<button class="ms-3 mt-3 border-0 bg-body-secondary"><img class="w " src="C:\Users\91638\Downloads\twitter.png" alt=""></button>
+<button class="ms-3 mt-3 border-0 bg-body-secondary"><img class="w " src="C:\Users\91638\Downloads\facebook.png" alt=""></button>
+<button class="ms-3 mt-3 border-0 bg-body-secondary"><img class="w " src="C:\Users\91638\Downloads\github-sign.png" alt=""></button>
+<button class="ms-3 mt-3 border-0 bg-body-secondary"><img class="w " src="C:\Users\91638\Downloads\instagram.png" alt=""></button>
+<button class="ms-3 mt-3 border-0 bg-body-secondary"><img class="w " src="C:\Users\91638\Downloads\mastodon.png" alt=""></button><br><br>
+<h5 class="ms-2">Popular tags</h5>
+<p class="scroll mb-2"><button class="scb ">#webdev</button>  <br>
+  <button class="scb">#javascript</button> <br>
+  <button class="scb">#beginners</button><br>
+  <button class="scb">#programming</button> <br>
+  <button class="scb">#tutorial</button> <br>
+ <button class="scb"> #react</button> <br>
+  <button class="scb">#python</button> <br>
+  <button class="scb">#devops</button> <br>
+  <button class="scb">#discuss</button> <br>
+  <button class="scb">#productivity</button> <br>
+ <button class="scb"> #career</button> <br>
+  <button class="scb">#css</button> <br>
+ <button class="scb"> #aws</button> <br>
+ <button class="scb"> #opensource</button> <br>
+  <button class="scb">#node</button> <br>
+ <button class="scb"> #codenewbie</button> <br>
+  <button class="scb">#testing</button> <br>
+  <button class="scb">#api</button> <br>
+  <button class="scb">#database </button><br>
+  <button class="scb">#android</button> <br>
+  <button class="scb">#news</button> <br>
+  <button class="scb">#ai</button> <br>
+ <button class="scb"> #security</button> <br>
+  <button class="scb">#html</button> <br>
+  <button class="scb">#learning</button> <br>
+ <button class="scb"> #github</button> <br>
+  <button class="scb">#java </button><br>
+  <button class="scb">#cloud</button> <br>
+  <button class="scb">#php</button></p>
+</div>
+
+<div class="card w-100 bg-white mb-2"><div class="ms-1 md-2"> <p class="ms-2"><b>Dev Community</b></p>    
+  <img class="w-75 center ms-4" src="C:\Users\91638\Downloads\darkmode.png" alt="">
+  <h5 class="w-75 ms-4"><b>Life is too short to browse without <br></b> <a href=""><b>dark mode</b></a>.</h5>
+ </div> 
+ 
+  </div>
+  <div  class="card bg-white mb-3 ">
+    <p class="ms-2"><b>Dev Community</b></p>
+    <div class="w-75 ms-4"><h5><b>The Legend of the Lonely Coder... <br>
+    Debunked
+    </b></h5  > <a class="md-3" href="">Join Over 1 Million Developers on DEV</a></div></div>
+    <p class="gg" class="m-2 w-100 justify-content-start fw-medium">  <a class="link" href="">DEV Community</a> A constructive and inclusive social network for software developers. With you every step of your journey. <br><br>
+
+      Built on  <a class="link" href="">Forem</a> — the <a class="link" href="">open source</a> software that powers <a class="link" href="">DEV</a> and other inclusive communities. <br><br>
+      
+      Made with love and <a class="link" href="">Ruby on Rails</a>. DEV Community © 2016 - 2023.</p>
+
+
+          </div>
+          <div class="w-50 mt-2 col-sn-6 col-md-4 bg-body-secondary ">
+            <div class="">
+              <button  style="border: none;background-color: rgba(0, 0, 0, 0);"><b>Relevent</b></button>
+              <button style="border: none;background-color: rgba(0, 0, 0, 0);">Latest</button>
+              <button style="border: none;background-color: rgba(0, 0, 0, 0);">Top</button>
+              </div>
+
+              <div class="card mb-3">  
+
+                <img src="C:\Users\91638\Pictures\Screenshot (70).png" alt="">
+                <p><img class="ms-2 mt-2" style="width: 40px; height: 40px;border-radius: 20px;margin-top: 2px;" src="https://res.cloudinary.com/practicaldev/image/fetch/s--ifX47biZ--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/682769/87fdd296-6176-41b1-86a4-740375c3e6d2.jpg" alt=""><b class="ms-2">Pradumna safar </b></p>
+                <p style="text-align: justify;" ><a style="text-decoration: none;font-size: 30px;" href="#"> <h2 class="ms-5">🚀9open-source libraries YOU HAVE to  contribute to in 2023🔥</h2> </a></p>
+                <div style="border: none;" class="card  ms-3">
+                  
+                    <div class="ms-3"><button  class="btn">#webdev</button>
+                      <button class="btn">#Javascript</button>
+                      <button class="btn">#Programming</button>
+                      <button class="btn">#Productivity</button></div>
+                     <div class="ms-3"> <button style="width: 150px; font-size: 12px;background-color: white;border: none;border-radius: 10px;">❤️🙌🤯🔥185Reaction</button>
+                           <button style="border: none;width: 100px;font-size: 10px;background-color: white;">  🗨️ 19 Comments</button><button style="border: none;background-color: white;font-size: 13px;float: right;">2 Min read  <img style="width: 25px;height: 25px;" src="data:image/png;base64,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" alt=""></button>
+</div>
+                         </div>
+
+
+                
+                       </div >
+              <div class="card  bg-white mb-3 "><p class="m-1 ms-3">Dev Community</p>
+                <div class=" m-3"> <img class=" p-1  card-img-top d-flex justify-content-center" src=" C:\Users\91638\Pictures\dev.png" alt="">
+                
+                  <p class="m-1"><b>Need to stay up-to-date with the most relevant trends in software, such as generate AI, cloud computing, and all things frontend?</b><br><br>
+                     Look no further.
+                     <br><br>
+                     You can do so much more once you <b>create your account</b>. Follow the devs and topics you care about, and keep up-to-date.</p>
+                    
+                    <a style="font-size: 25px;" href=""><b>Start Now</b></a><br>
+                    <p>Happy Coding❤️</p>
+                    </div>
+              </div>
+
+              <div class="card mb-3">
+                <img class="w-50" src="C:\Users\91638\Pictures\Screenshot (80).png" alt="">
+                <h5 class="ms-3"><b>What you learning about this weekend?</b></h5>
+                <div><button  class="btn">#discuss</button>
+                  <button class="btn">#Codenewbie</button>
+                  <button class="btn">#Learner</button>
+                  <button class="btn">#Productivity</button></div>
+                  <div> <button style="width: 150px; font-size: 12px;background-color: white;border: none;border-radius: 10px;">❤️🙌🤯🔥185Reaction</button>
+                    <button style="border: none;width: 100px;font-size: 10px;background-color: white;">  🗨️ 19 Comments</button><button style="border: none;background-color: white;font-size: 13px;float: right;">2 Min read  <img style="width: 25px;height: 25px;" src="data:image/png;base64,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" alt=""></button>
+    </div>
+              </div>
+              <div class="card mb-3">
+                <img class="w-50" src="C:\Users\91638\Pictures\Screenshot (80).png" alt="">
+                <h5 class="ms-3"><b>ATtiny85 Programming: Your Complete Guide with Arduino and PlatformIO!</b></h5>
+                <div><button  class="btn">#discuss</button>
+                  <button class="btn">#Codenewbie</button>
+                  <button class="btn">#Learner</button>
+                  <button class="btn">#Productivity</button></div>
+                  <div> <button style="width: 150px; font-size: 12px;background-color: white;border: none;border-radius: 10px;">❤️🙌🤯🔥185Reaction</button>
+                    <button style="border: none;width: 100px;font-size: 10px;background-color: white;">  🗨️ 19 Comments</button><button style="border: none;background-color: white;font-size: 13px;float: right;">2 Min read  <img style="width: 25px;height: 25px;" src="data:image/png;base64,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" alt=""></button>
+    </div>
+              </div>
+              <div class="card mb-3">
+                <img class="w-50" src="C:\Users\91638\Pictures\Screenshot (80).png" alt="">
+                <h5 class="ms-3"><b>Unleashing the Power of Elegance: A Guide to Styling Django Forms</b></h5>
+                <div><button  class="btn">#discuss</button>
+                  <button class="btn">#Codenewbie</button>
+                  <button class="btn">#Learner</button>
+                  <button class="btn">#Productivity</button></div>
+                  <div> <button style="width: 150px; font-size: 12px;background-color: white;border: none;border-radius: 10px;">❤️🙌🤯🔥185Reaction</button>
+                    <button style="border: none;width: 100px;font-size: 10px;background-color: white;">  🗨️ 19 Comments</button><button style="border: none;background-color: white;font-size: 13px;float: right;">2 Min read <img style="width: 25px;height: 25px;" src="data:image/png;base64,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" alt=""> </button>
+    </div>
+              </div>
+              <div class="card mb-3">
+                <img class="w-50" src="C:\Users\91638\Pictures\Screenshot (80).png" alt="">
+                <h5 class="ms-3"><b>Step by step to deploy and host a high-available WordPress application using AWS EC2 instance,RDS,ASG and VPC (Part-1)</b></h5>
+                <div><button  class="btn">#discuss</button>
+                  <button class="btn">#Codenewbie</button>
+                  <button class="btn">#Learner</button>
+                  <button class="btn">#Productivity</button></div>
+                  <div> <button style="width: 150px; font-size: 12px;background-color: white;border: none;border-radius: 10px;">❤️🙌🤯🔥185Reaction</button>
+                    <button style="border: none;width: 100px;font-size: 10px;background-color: white;">  🗨️ 19 Comments</button><button style="border: none;background-color: white;font-size: 13px;float: right;">2 Min read  <img style="width: 25px;height: 25px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAh1BMVEX////+/v4aGhr7+/sYGBgdHR0jIyNDQ0Pm5ub5+fm2tra5ubmLi4sWFhZra2seHh4RERHs7Ozy8vIsLCwmJiY3NzcLCwvGxsZxcXEwMDCsrKw2NjaEhIQ8PDyXl5fOzs5cXFx8fHzZ2dmjo6NSUlJNTU2fn59kZGQAAACSkpLe3t5ZWVlBQUFwU/rdAAAKE0lEQVR4nO1dC2OiuhImCYlEjAkBY/FFfbXb2v//++5Mou3Z3daDVtSem2/XtVUY8jFvlNkkiYiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiDgKCQ8CD8bwH/wpISw8fw+EHaSS/WE6B5MMDkgYIUzij4HNmdiTQEkgjwAVEH8NFp4AHB4ORqRfBrMIdib8zv78e3HMn5JLaPjfEBTgHySRq3wxWD4ghmfC77wcLPKVTMi7aNa9UvBgBO0gYVk+20wrbpxRaUrPRJoqEMCr6WaWZ2iwEhVDulcJ2Xtkkk0eRsrgWrQQ+lwelIe9OTVq9DDJUDLK754I83+TopmVzlCtlcLTGhidA9CmF6A1Na6cNcXHMbonQpIsfxNKC6o4gKZwXs8lIjhVKdeaKyq0Em955gNx90Qkar4Y1AbXrnWqwCpUOK1nAZTpRaQa5XFTLgrwkGs4O/wBHlpoZ4Ry1XwznA1eBt/Ay2A23Mwrp4RxoOTRIOuchCfCEruunXalcHQ0nGSFT8bs3IToozkrsslwRJ0oHXXTJ5vIKzg7k/03IzRPTTXsF54ERsxzE+I+lkP46A8rk3Iu1FsfJHZOhCTNDqwgLV29eAU7k5eps+BUkNdF7UollNk1V6i1CBlAjALTmq8lkfvogmXjuaa1PxEMzEmu5yAYgtfgGkTyramEE9OngvnaCM7m95QSBGASZMXTtEJH2Y6vUDcuoShRlVpmeNbs+2K+5ewIi6E9W1JIjEbMuls/8SdNJq89anTldpkloYW4GIASsdnOUagWtivfksgOEiMJZVbSLyER82phWXJ5ItASLAQWkmW/QyIEVSCXykBlsnn1r1002gdpr1sKRYOZyVBxdUHE9zzFzqRCqeWlGtzfDuElLsF0tdkVoeK6fGIMRJLVnHKuqolPgJc+BsokE51qpecr4r2yCyISfaIpNVV02jByCP8Xwj4hEbsqdWrKsiG+rLs89kTGQkDvMM8Ox73YoQ6iZDbXEN6rMfpHF43inkiuwUP0qAiuf9moxXxAyd64gbCYd0Uk2CvpC5py1euu0iZZD9q1VORJN0ErEjkVkUhrRCKnIRJpjf8cEeBBe1lnVzkikdaIRE5DJNIakchpiERaIxI5DZFIa0QipyESaY1I5DREIq0RiZyGSKQ1IpHTEIm0RiRyGiKR1ohETkMk0hqRyGmIRFojEjkNkUhrRCKnIRJpjUjkNEQirRGJnIZIpDUikdMQibTG/zER8tsXtUm7r23fKZEk8TfEJUS2/f753RH5TAFtlHKPRPb7SUIOMwN+IhF/XwYs3Pot4Sn8/q8ruzsiYVoAuIdsnp4aeZhM8PM04jdgTBbrrVLbdSHDPRo/j0jYR8rB1AnhpgPZcrbG/RCR8jA3hclk9aCVEnjvzHKFv+/Hqhy5p/huiMgwsAGemE2aoVBCG6OFqp6bxDJPgSSe050TwY38YguZ5FtlqEGNGKrMNk+kTUKO/NpX7oaIv709aGRdq1Ipzo3hsE+l6jUL5nXsLuX7IYJGA9GK2EXpqOZ4T+Fc45ANnOdgWYheP8BH/A2d8AA355UyXJndeLwziru0pPphFd79WiV3QyTxccuOn4XShpdGPDRJ0jwIU2nFjXge22Mx686IJEl/m6aKQ7wqZytc+GpWgtNTRdNt//jMqZsTIfvRWBb82a7nlMJm2swXPhGC/y/mRsMKKZ2vLbxk98nmbzm3JgJnmeE97rBEOyiV5oZS05sUfq3Aspj08BVw/nJg/WQCv/lfyrkHInjXK2SK1VBzyBwldbvxe8KAp/HOUTQwroerxEp/P+sdEnmfuoZuDs7AVTrMkuLj/SLJhuA38JYCl08+5r/dG5FQd5C8B2EW3UHgeAvJDn0hpslsKdBxaJn28lDG/I2bEwn2nq1rqBIh/eHgHGn9rfUe+AO88DR12m9Qr7PgV3dHxDd/r7Mph6qkMmY7gXyRyOJ9yB7WXpBfJltjKqVKPp297tvIOyOCx1wtSygSU2HUc06YT/KHaUZYSOIYF5I/KyNS2Kxcrj5RyA2JHMIPS5pHrtDPlR42X8tphtpvpPhjE9yKeJo3J8J8KsSifaPRqkrFBwUrvhIDbw24KtG+9CZH48O0+LHgGxIJ4cpORr9URVPt6id77GIJI/apdjqFuv7XaGJD8LoHIj4bkGIwgpgL76neREr7pRSAlXLSA8tKIRKPBgX5PZvcjIhvabG8dRCvjNabMXa05Mu6EC+h2mS80dpA7HK+OLb/WPHtiGA4Gg/BVBw0H+Xz6qg2DrCrZ/Al48AUhziCSt6eCIF8Mdnq1Aie6nr5ilmu+JhX9TcF/7ZMXpe1Trkwqd5OIL98yLsVEVjEukcphFNN6xco4kkwni/hDQ9H8r3UNIyr7K3tR/F4dSKBCfhC8VKn1M9pxAW1MiyE3Z+AFJqt+qU4MGE30QizYCIPFadaKKcf8yMW9RmTJH/UTglNefXwGtoTchONgA3Z5rly1DjOIfyQI8Hqb2BFAMGOc2eoq54bG/a+OhGGH3qQyQbsHFKbq7E3L04YIwWOVGAvXztIo+BfmwnxKf76pgWBplhAYoMsCL35S+HL32Ne/jusvyhEihfo5SE3QiLFIabyBhqBon0wxeuIVLleP7QWJ5qWb2L6Paegl6dqikNMr68RxpplDf0e9B7icexVIe1JYyL95qCY8aOAHkVzVS8bJq9vWtCbG+jMDS+Hjb+4LtmnTfhX4vbFJuzWDEtuQLe+l78akfKXEGZuWb4xUPRBmVFiNj8h7P4JDOHQkMEp0dRscmLnphK/ys6JVEqodNOspwKyoBB0tCjIZ713e7HgLcViRHEmHBXTdbOlSpiqeyJaODpfTqEOFxx+6n9xEaG9WH/Roj+nDgQqNVrOOcSx7okICsWhKp2fh013Oab3b01sxCn+4PL5DucmUuFKg/O1u/cRrVINXk4hjbnyYeyvMLLvaYT5K47jh9JBauWQ5vEzx+41AhFfa7wererZ3s0/u/TZFuEzRe/ysxqEcs1xYnj3GsGADxWFUept4d3DD0/+xgGZH+PsHWXxpqBSwNpeX8FHoCKBskSnvQnzH9MmLb4FcBy4u8SUyiY98L80BafvjggKhZPXLxXFiE+hN2cXHTXqL0KMN9RrRJV9VHMXTLxUHAEKFR40qM+N708veBzmu+ZmSI2glAt/nroZkyv9VxlGEO5dNStCgXG5//PkIK2YVQ4S1GiVeMe5oMrfIUNjWxo6whH16OQXHFTvv2UAQhP7NIUIjM0v6WhWub9axbLJcpmz0E5cdHQx8QOEmSWsv1xOMuavgF1O/B8HS8I08RBu2Xfyx5/YJ1aUup9+3oVVBYROKPO2fChLvlH2/g4vCMsVb2RZ6NMuJfyfCCx8wLX+Lzv6baUzIP1A4b30/dE6VEtERERERERERERERERERERERERERERERMQPx/8Al9eyGWLMyJoAAAAASUVORK5CYII=" alt=""> </button>
+    </div>
+              </div>
+              
+              <div class="card">
+                <img class="w-50" src="C:\Users\91638\Pictures\Screenshot (80).png" alt="">
+                <h4 class="ms-3"><b>What you learning about this weekend?</b></h4>
+                <div><button  class="btn">#discuss</button>
+                  <button class="btn">#Codenewbie</button>
+                  <button class="btn">#Learner</button>
+                  <button class="btn">#Productivity</button></div>
+                  <div> <button style="width: 150px; font-size: 12px;background-color: white;border: none;border-radius: 10px;">❤️🙌🤯🔥185Reaction</button>
+                    <button style="border: none;width: 100px;font-size: 10px;background-color: white;">  🗨️ 19 Comments</button><button style="border: none;background-color: white;font-size: 13px;float: right;">2 Min read   <img style="width: 25px;height: 25px;" src="data:image/png;base64,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" alt=""> </button>
+    </div>
+              </div>
+             
+              
+              
+              
+
+          </div>
+          <div class="w-25 mt-2 p-2 col-sn-6 col-md-4 bg-body-secondary">
+            <div class=" card w-100 p-2 border-0 bg-white mb-2">
+              <h5 class="mt-2 ms-2">Listings  <button  style="align-items: end; border: none; background-color: white;position: absolute;right: 20px;top: 15px; font-size: 15px;" class="bg-white">See all</button></h5><hr class="border-opacity-10">
+            <p ><button  class="rbtn   bg-white p-1">🔥Nervous about your upcoming interviews? Try mock interviews at Meetapro!🔥<br>
+              <p style="color: black;">products</p> </button><hr class="border-opacity-10">
+              <button  class="rbtn   bg-white p-1">Yo!Kart - Multivendor ecommerce software <br>
+                <p style="color: black;">products</p></button> <hr class="border-opacity-10">
+              <button  class="rbtn   bg-white p-1">Javascript for Data Analytics <br>
+                <p style="color: black;">education</p></button> <hr class="border-opacity-10">
+              <button  class="rbtn   bg-white p-1">Hire AI Developers to Create An Innovative AI-powered Solution <br>
+                <p style="color: black;">forhire</p></button> <hr class="border-opacity-10">
+              <button  class="rbtn   bg-white p-1">Hire AI Developers to Create An Innovative AI-powered Solution <br>
+                <p style="color: black;">collabs</p></button>  </p>
+<button style="border: none; color: black ;width: 100%;" >Create a Listing</button>
+
+            </div>
+
+            <div class="card p-1 bg-white mb-2">
+              <button style="text-align: justify; font-size: 20px;"  class="border-light-subtle border-0 w-100 bg-white fw-bold">#discuss</button>
+              <button style="text-align: justify; font-size: 13px;" class="border-light-subtle border-0 w-100 bg-white">Seeking Your Input: Exciting Browser-Compatible CSS Updates <br>
+                New</button><hr>
+ 
+              <button style="text-align: justify; font-size: 13px;" class="bordrborder-light-subtle border-0 w-100 bg-white">Being a game developer <br>
+                New</button><hr>
+
+              <button style="text-align: justify; font-size: 13px;"  class="border-light-subtle border-0 w-100 bg-white"> Best Bosses: What Made Their Mentorship Stand Out? <br>
+                New</button><hr>
+
+              <button style="text-align: justify; font-size: 13px;" class="border-light-subtle border-0 w-100 bg-white">Top 5 things a Framework is NOT responsible for! <br>
+                3 comments</button><hr>
+
+              <button style="text-align: justify; font-size: 13px;" class="border-light-subtle border-0 w-100 bg-white">Go queries <br>
+                1 comment</button>
+
+            </div>
+
+            <div class="card p-1 bg-white mb-2">
+              <button style="text-align: justify; font-size: 20px;" class="border-light-subtle border-0 w-100 bg-white fw-bold">#watercooler</button>
+              <button style="text-align: justify; font-size: 13px;" class="border-light-subtle border-0 w-100 bg-white">Come and geek out over synthesizers with me! <br>
+                4 comments</button><hr>
+              <button style="text-align: justify; font-size: 13px;" class="border-light-subtle border-0 w-100 bg-white"> How I Became a Software Engineer <br>
+                1 comment</button><hr>
+              <button style="text-align: justify; font-size: 13px;" class="border-light-subtle border-0 w-100 bg-white">Contextualising identifiers in a system <br>
+                4 comments</button><hr>
+              <button style="text-align: justify; font-size: 13px;" class="border-light-subtle border-0 w-100 bg-white">Who said programmers aren't creative? <br>
+                New</button>
+              
+
+
+
+            </div>
+            <div class=" p-2 bg-body-secondary mb-2"><p>
+              <p><b>trending guides/resources</b></p>
+              <button  class="rbtn bg-body-secondary p-1">Why OpenAI removed Web Browsing from ChatGPT</button>
+              <button  class="dbtn  bg-body-secondary p-1">Designing APIs for humans: Design patterns</button>
+              <button  class="dbtn  bg-body-secondary p-1">The Magic of Empty Git Commit</button>
+              <button  class="rbtn  bg-body-secondary p-1">Qwik The Post-Modern Framework</button>
+              <button  class="dbtn  bg-body-secondary p-1">Understanding JWTs: A Simple Guide for Beginners</button>
+              <button  class="dbtn  bg-body-secondary p-1">React Design Patterns</button>
+              <button  class="dbtn  bg-body-secondary p-1">Common design patterns at Stripe</button>
+             <button  class="dbtn  bg-body-secondary p-1"> Stop using Swagger-UI and MSW, but SDK instead</button>
+              <button  class="dbtn  bg-body-secondary p-1">Spicing Up AWS Architecture Diagrams: A Step-by-Step Guide To Creating Animated AWS Architecture GIFs</button>
+              <button  class="dbtn  bg-body-secondary p-1">How I Got Hired Contributing to open source projects</button>
+              <button  class="dbtn  bg-body-secondary p-1">Backend development is more than writing endpoints for frontend</button>
+              <button  class="dbtn  bg-body-secondary p-1">I'm a lazy Dev</button>
+              <button  class="dbtn  bg-body-secondary p-1">Microservices vs. Micro Frontends: What's the Difference?</button>
+              <button  class="dbtn  bg-body-secondary p-1">8 Best Practices for React.js Component Design</button>
+              <button  class="dbtn  bg-body-secondary p-1">How to Create Tailwind CSS Dashboard Using Low Code [Tutorial]</button>
+              <button  class="dbtn  bg-body-secondary p-1">20 (Senior Developer) C# Interview Questions and Answers (2023)</button>
+              <button  class="dbtn  bg-body-secondary p-1">SOLID: Single Responsibility Principle With Examples</button>
+              <button  class="dbtn  bg-body-secondary p-1">Top 14 Game-Changing Websites Every Developer Should Know About 🚀🔥</button>
+              <button  class="dbtn  bg-body-secondary p-1">Power Automate Documentation by GPT</button>
+              <button  class="dbtn  bg-body-secondary p-1">13 CSS Tricks that will give you an adrenaline rush🤯</button></p></div>
+           </div>
+
+        </div>
+</div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+   
+    </body>
+</html>

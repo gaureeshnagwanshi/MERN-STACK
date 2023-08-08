@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email</title>
+
+
+<style>
+    *{
+        font-family: lato;
+    }
+body{
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.hello{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.side{
+    width:20%;
+    margin: 10px ;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    
+
+}
+.top{
+
+width: 75%;
+height: 100vh;
+margin: 10px;
+background-color: white;
+display: flex;
+position: relative;
+
+}
+input{
+    width: 55%;
+    box-sizing: border-box;
+    height: 50px;
+    background-color: rgba(190, 236, 221, 0.585);
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    padding-left: 60px;
+    position: absolute;
+    left: 30px;
+    top: 7px;
+    /* padding-left: 30px; */
+}
+.center{
+    width: 100%;
+    height: 89.3vh;
+    background-color: white;
+    position: absolute;
+    top: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+        
+
+} .logo{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+
+}
+.btn{
+    width: 300px;
+    margin-top: 20px;
+    font-size: 15px;
+    border: none;
+    padding-left: 50px;
+    text-align: justify;
+    background-color:white;
+    box-sizing: border-box;
+    border-radius: 0px;
+    rotate: 0deg;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    text-orientation: sideways;
+}
+.lbtn{
+    width: 300px;
+    margin-top: 20px;
+    font-size: 15px;
+    border: none;
+    background-color:rgb(249, 241, 241);
+    box-sizing: border-box;
+    border-radius: 0px;
+    rotate: 0deg;
+    height: 40px;
+    position: absolute;
+    left: -60px;
+    text-orientation: sideways;
+}
+.btn:hover{
+    background-color: rgba(255, 0, 0, 0.185);
+     transform: translateY(2px);
+}
+.btn1{ width: 180px;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color:rgba(155, 232, 238, 0.586);
+    box-sizing: border-box;
+    border-radius: 30px;
+    rotate: 0deg;
+    height: 60px;
+    position: absolute;
+    left: 30px;
+    text-orientation: sideways;
+
+}
+.tag{
+    width: 20%;
+    height: 40px;
+    /* color: rgb(245, 73, 73); */
+    background-color: white;
+    font-size: 25px;
+    padding: 0px;
+    top: 5px;
+    /* border-bottom: 4px solid rgb(0, 179, 255); */
+    /* bottom: 100px; */
+    padding-left: 40px;
+    
+    
+    /* border-bottom: 2px  solid red; */
+}
+.tag1{
+    width: 20%;
+    height: 40px;
+    /* color: rgb(245, 73, 73); */
+    background-color: white;
+    font-size: 25px;
+    padding: 0px;
+    top: 5px;
+    border-bottom: 4px solid rgb(0, 179, 255);
+    /* bottom: 100px; */
+    padding-left: 40px;
+    
+    
+    /* border-bottom: 2px  solid red; */
+}
+.tag:hover{
+    background-color: rgb(160, 230, 239);
+    transform: translateX(2px);
+    border-bottom: 5px solid rgb(0, 179, 255);
+}
+
+.png{
+    width: 35px;
+    display: flex;
+    position: absolute;
+    right: 230px;
+    top: -2px;
+}
+.lgo{
+    width: 40px;
+    /* display: flex; */
+    position: absolute;
+    right: 670px;
+    top: -2px;
+}
+.img{
+    width: 40px;
+    /* display: flex; */
+    position: absolute;
+    left: 0px;
+    top: 3px;
+}
+.timg{
+    width: 100%;
+    height: 100px;
+}
+timg{
+    position: absolute;
+    top: 80px;
+}
+.simg{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 25px;
+    height: 20;
+}
+.lsimg{
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    width: 35px;
+}
+.sd{
+    position: absolute;
+    right: 0   ;
+    top: 10px;
+}
+.gg{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    height: 80px;
+}
+.hi{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 530px;
+    top: 20px;
+}
+.he{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 60px;
+    top: 20px;
+}
+.hl{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+
+    top: 20px;
+    left: 27px;
+}
+.msg{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    /* box-sizing: border-box; */
+
+    top: 7%;
+    background-color:white;
+}
+.msg1{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 12%;
+    background-color:white;
+}
+.msg2{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 17%;
+    background-color:white;
+}
+.msg3{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 22%;
+    background-color: white;
+}
+.sq{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+.st{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 35px;
+    top: 8px;
+}
+.pra{
+    position: absolute;
+    left: 120px;
+    top: -10px;
+}
+.mm{
+    position: absolute;
+    left: 300px;
+    top: -10px;
+
+}
+.ms{
+    position: absolute;
+    right: 80px;
+    top: -10px;
+}
+.time{
+    position: absolute;
+    right: 10px;
+    top: -10px;
+}
+.msg1:hover{
+    background-color: rgba(98, 235, 235, 0.342);
+    transform: translateX(2px);
+    outline: 1px solid black;
+}
+.msg2:hover{
+    background-color: rgba(98, 235, 235, 0.342);
+    transform: translateX(2px);
+    outline: 1px solid black;
+}
+.msg3:hover{
+    background-color: rgba(98, 235, 235, 0.342);
+    transform: translateX(2px);
+    outline: 1px solid black;
+}
+.msg:hover{
+    background-color: rgba(98, 235, 235, 0.342);
+    transform: translateX(2px);
+    outline: 1px solid black;
+}
+</style>
+
+
+</head>
+<body>
+    <div class="hello">
+        <div class="side">
+          
+<img  class="logo" src="C:\Users\91638\Pictures\email .png" alt=""><br><br>
+<form action="">
+    <button style="position: absolute;top: 80px;" class="btn1"> <img class="hl" src="C:\Users\91638\Pictures\pencil.png" alt=""> Compose  </button>
+    <button style="position: absolute;top: 150px;" class="btn"> <img class="simg" src="C:\Users\91638\Pictures\Screenshot (47).png" alt="">  Index</button> <br><br>
+<button style="position: absolute;top: 190px;" class="btn"> <img class="simg" src="C:\Users\91638\Pictures\star.png" alt=""> starred</button><br><br>
+<button style="position: absolute;top: 230px;" class="btn"><img class="simg" src="C:\Users\91638\Pictures\snooze.png" alt=""> Snoozed</button><br><br>
+<button style="position: absolute; top: 270px;" class="btn"><img class="simg" src="C:\Users\91638\Pictures\sent.png" alt=""> Sent</button><br><br>
+<button style="position: absolute;top: 310px;" class="btn"><img class="simg" src="C:\Users\91638\Pictures\draft.png" alt=""> Drafts</button><br><br>
+<button style="position: absolute;top: 350px;" class="btn"><img class="simg" src="C:\Users\91638\Pictures\Screenshot (52).png" alt=""> More</button><br><br>
+<button style="position: absolute;top: 400px;" class="lbtn"><img class="lsimg" src="C:\Users\91638\Pictures\Screenshot (53).png" alt=""> Labels</button><br><br>
+
+</form>
+
+
+
+
+        </div>
+        <div class="top"> 
+           <div  >
+            <img class="sd" src="C:\Users\91638\Pictures\Screenshot (54).png" alt=""><br><br>
+            <div > <img class="gg" src="C:\Users\91638\Pictures\Screenshot (46).png" alt=""></div>
+        </div>
+
+           <div> <input  type="text" placeholder="Search Mail">
+            <div ><img class="hi" src="C:\Users\91638\Pictures\option.png" alt=""></div>
+            <div ><img class="he" src="C:\Users\91638\Pictures\search.png" alt=""></div>
+            
+        
+        </div>
+            
+           <div class="center">
+               <!-- <img class="timg" src="C:\Users\91638\Pictures\Screenshot (46).png" alt=""><br><br> -->
+
+               <div class="tag1"><a href="#" style="text-decoration: none;color:black;"> Primary</a></div><img class="img" src="C:\Users\91638\Pictures\Screenshot (45).png" alt="">
+               <div class="tag"><a href="#" style="text-decoration: none;color:black;"   >Social <br></a></div><img class="lgo" src="C:\Users\91638\Pictures\Screenshot (44).png" alt="">
+               <div class="tag"><a href="#" style="text-decoration: none;color:black;"> Promotion</a></div><img class="png" src="C:\Users\91638\Pictures\Screenshot (43).png" alt="">
+               <div class="msg">
+                <img class="sq" src="C:\Users\91638\Pictures\square.png" alt="">
+<img class="st" src="C:\Users\91638\Pictures\star.png" alt="">
+<p class="pra"><b>Bank account</b> </p><p class="mm"><b>You are Eligible If your B.E/B.Tech/BCA/MCA Drive </b> <p class="ms">Hi,
+
+    We've found new jobs that match  Click on the link.....</p></p>
+    <p class="time">02:36PM</p>
+               </div>
+               <div class="msg1">    
+
+<img class="sq" src="C:\Users\91638\Pictures\square.png" alt="">
+<img class="st" src="C:\Users\91638\Pictures\star.png" alt="">
+<p class="pra"><b>Ninja Coding Studio</b> </p>
+<p class="mm"><b>You are Eligible If your B.E/B.Tech/BCA/MCA Drive </b> <p class="ms">Hi,
+
+    We've found new jobs that match  Click on the link.....</p></p>
+    <p class="time">02:36PM</p>
+
+               </div>
+               <div class="msg2">
+                <img class="sq" src="C:\Users\91638\Pictures\square.png" alt="">
+                <img class="st" src="C:\Users\91638\Pictures\star.png" alt="">
+                <p class="pra"><b>Facebook</b> </p><p class="mm"><b>You are Eligible If your B.E/B.Tech/BCA/MCA Drive </b> <p class="ms">Hi,
+
+                    We've found new jobs that match  Click on the link.....</p></p>
+                    <p class="time">02:36PM</p>
+               </div>
+               <div class="msg3">
+                <img class="sq" src="C:\Users\91638\Pictures\square.png" alt="">
+                <img class="st" src="C:\Users\91638\Pictures\star.png" alt="">
+                <p class="pra" ><b>Ninja Coding Studio</b> </p><p class="mm"><b>You are Eligible If your B.E/B.Tech/BCA/MCA Drive </b> <p class="ms">Hi,
+
+                    We've found new jobs that match  Click on the link.....</p></p>
+                    <p class="time">02:36PM</p>
+               </div>
+           </div>
+        </div>
+
+
+        </div>
+        
+    </div>
+
+
+
+</body>
+</html>

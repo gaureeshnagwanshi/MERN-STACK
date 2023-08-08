@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+<style>
+    
+    *{
+        font-family: lato;
+    }
+
+body{
+    margin:0;
+    background-attachment: fixed;
+background-image: linear-gradient(  rgb(59, 190, 195),rgb(238, 232, 236),rgb(19, 207, 16));
+    /* background-image: url(images\ \(3\).jpeg); */
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    background-size: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.hello{
+    width: 400px;
+    height: fit-content;
+    padding: 30px;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+   background-color: white;
+    background-image: repeating-linear-gradient( rgb(99, 230, 179),rgb(235, 205, 124));
+    background-repeat: no-repeat;
+    background-size:100%;
+     /* background-color: rgb(12, 61, 112);  */
+    box-shadow:20px -15px 5px rgb(233, 233, 237) ;
+}
+.ram{
+
+    color: #e62914;
+    font-size: 22px;
+    font-family: lato;
+    
+}
+.my{
+    width: 100%;
+    background-color: rgb(235, 239, 237);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    float: right;
+    
+    }
+    .btn{
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        font-size: 20px;
+        
+
+    }
+    .create{
+        width: 100%;
+        font-size: 20px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .create:hover{
+        background-color: aqua;
+        transform: translatex(100px)
+
+    }
+    .create:active{
+        outline: 5px solid rgb(79, 209, 42);
+    }
+
+
+
+</style>
+
+</head>
+<body >
+    <div class="hello">
+<form class="ram">
+    <h2 style="text-align: center;">Create Your Account</h2>
+    <hr>
+   
+    <input class="my" type="text" vlue="First Name" required placeholder="User  Name" minlength="5" maxlength="50"><br><br>
+
+    
+
+    
+    <input class="my" type="email" required vlue="John@gmail.com" placeholder="John@gmail.com"><br><br>
+
+    
+    <input class="my" type="password" required placeholder="Create password"><br><br>
+
+    
+    <input class="my" type="password" required placeholder="Confirm Password"><br><br>
+
+    <input type="checkbox"> I accept to the  
+    
+       <a href="https://www.termsfeed.com/blog/sample-terms-and-conditions-template/" target="_blank">
+term & condition
+       </a>
+        <br><br>
+    
+<center>
+    <button  type="button" class="create"  style="background-color: #dd84da;">Create anccount</button>
+</center>
+<p style="text-align: center;">-----or-----</p>
+<button class="btn"> Sign in with Google</button> 
+<button class="btn">Sign in with Facebook</button>
+
+</form>
+
+    </div>
+    </body>
+</html>
